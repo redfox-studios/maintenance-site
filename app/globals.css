@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: oklch(12% 0 0);
+  --color-bg-subtle: oklch(15% 0 0);
+  --color-border: oklch(20% 0 0);
+  --color-text: oklch(95% 0 0);
+  --color-text-muted: oklch(50% 0 0);
+  --color-text-faint: oklch(28% 0 0);
+  --color-accent: oklch(0.4934 0.202478 29.2339);
+  --color-accent-dim:oklch(0.628 0.258 29 / 0.3);
+
+  --font-mono: ui-monospace, "Cascadia Code", "Fira Code", monospace;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-mono);
+}
